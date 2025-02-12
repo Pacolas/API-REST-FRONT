@@ -39,8 +39,9 @@
             $stmt = $conn->prepare('SELECT * FROM listado_clientes');
             if($stmt->execute()){
                 $result = $stmt->fetchAll();
-                echo json_encode($result);
                 header('HTTP/1.1 201 OK');
+                echo json_encode($result);
+                
             } else {
                 header('HTTP/1.1 404 No se ha podido consultar los clientes');
             }

@@ -1,9 +1,10 @@
 <?php
     require_once('../includes/Client.class.php');
+    require('../views/create_client.php');
 
     if($_SERVER['REQUEST_METHOD'] == 'POST' 
-        && isset($_GET['email']) && isset($_GET['name']) && isset($_GET['city'])  && isset($_GET['telephone'])){
-            Client::create_client($_GET['email'], $_GET['name'], $_GET['city'], $_GET['telephone']);
+        && isset($_POST['email']) && isset($_POST['name']) && isset($_POST['city'])  && isset($_POST['telephone'])){
+            Client::create_client($_POST['email'], $_POST['name'], $_POST['city'], $_POST['telephone']);
         }
 
 ?>
