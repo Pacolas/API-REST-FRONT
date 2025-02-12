@@ -2,6 +2,9 @@
 
 Se requiere tener una DB MySQL, y crear la DB mediante el codigo incluido en la carpeta Includes.
 
+<img width="1138" alt="image" src="https://github.com/user-attachments/assets/d68864f3-7eff-487d-8ef9-732dfbe0fb6e" />
+
+
 Una vez creada la DB, ingresar a la carpeta API.REST.PHP y correr el siguiente comando.
 
 
