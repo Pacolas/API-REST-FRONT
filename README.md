@@ -2,7 +2,8 @@
 
 Se requiere tener una DB MySQL, y crear la DB mediante el codigo incluido en la carpeta Includes.
 
-Una vez creada la DB, ejectuar el comando.
+Una vez creada la DB, ingresar a la carpeta API.REST.PHP y correr el siguiente comando.
+
 
 php -S localhost:8000
 
